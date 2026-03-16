@@ -34,7 +34,7 @@ public class Main {
 
         EnergyManager total = new EnergyManager();
         if (total.totalPower(powerConsumptions) > threshold) {
-        System.out.println("!ALERT!: Power consumption is too high!");
+        System.out.println("!ALERT!: Power consumption is too high!");}
         System.out.println("Calculating energy consumption...");
         System.out.println("Total power consumption: " + total.totalPower(powerConsumptions) + "W");
         System.out.println(total.maxDevice(powerConsumptions) + " is the most consuming device right now.");
