@@ -1,14 +1,19 @@
-// Device.java
+// The following class is the program's backbone.
 public class Device {
     private String deviceName;
-    private int powerCons;
+    private double powerConsumption;
 
-    // Setter
-    public Device (String deviceName, int powerCons) {
+    // Setters
+    public Device(String deviceName, double powerConsumption) {
         this.deviceName = deviceName;
-        this.powerCons = powerCons;
+        this.powerConsumption = powerConsumption;
     }
-    // Getter
-    public String getdeviceName() {return deviceName;}
-    public int getpowerCons() {return powerCons;}
+
+    // Getters
+    public String getdeviceName() {
+        return deviceName;
+    }
+    public double getpowerCons() {
+        return powerConsumption;
+    }
 }
